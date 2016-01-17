@@ -1,0 +1,1 @@
+require('./ceshi.js').init();

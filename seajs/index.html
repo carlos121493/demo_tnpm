@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		helloworld
+		seajs文档<a href="">http://seajs.org/docs/</a>
+		Commonjs<a href="">https://github.com/seajs/seajs/issues/269/</a>
+		//这种方式进行压缩，测试和调试等还需要流程化工具的支持
+		gulp.js<a>https://www.npmjs.com/package/gulp</a>
+		grunt.js<a>https://www.npmjs.com/package/grunt</a>
+		<script type="text/javascript" src="sea.js"></script>
+		<script>
+			seajs.config({
+			  base: "./"
+			})
+			seajs.use("./index.js",function(Ceshi){
+				Ceshi.init();
+			});
+		</script>
+	</body>
+</html>

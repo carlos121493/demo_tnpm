@@ -1,0 +1,40 @@
+{
+  "name": "spm3",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "author": "死侍 <sishi.gw@alipay.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.html",
+    "output": [
+      "index.js",
+      "index.html"
+    ],
+    "dest": "dist/"
+  },
+  "devDependencies": {
+    "spm-expect.js": "0.3.1",
+    "spm-webpack": "~1.0.0"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm-webpack -c"
+  },
+  "main": "index.html",
+  "dependencies": {
+    "spm-jquery": "~2.1.4"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "publishConfig": {}
+}
