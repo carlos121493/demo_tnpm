@@ -14,7 +14,7 @@
 － 通过闭包将环境变量做一定限度的隔离
 [写上邮件地址,客户端就可以接收到内容]
 
-### 2.seajs(seajs目录)
+### 2.seajs(seajs目录) 注意需要在node4版本使用
 
 进入模块化编程(类似于仓储纷发)
 - 通过引入seajs文件添加形成组件和引用的define require export方法
@@ -23,7 +23,7 @@
 - 利用自动化工具grunt,gulp进行打包
 [通过系统来对相应的仓储中心进行配货,或分发到最近的地址,自提]
 
-### 3.webpack到来(webpack,webpackBabel目录)
+### 3.webpack到来(webpack,webpackBabel目录注意需要在node5版本使用)
 
 - 通过建立webpack.config.js(或用命令行)对某一种工程进行个性化定制
 - 将文件打包集成到文件

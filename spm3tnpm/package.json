@@ -31,7 +31,7 @@
   },
   "main": "index.html",
   "dependencies": {
-    "spm-jquery": "~2.1.4"
+    "spm-jquery": "^2.1.4"
   },
   "engines": {
     "node": ">=4.0.0"
